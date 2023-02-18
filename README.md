@@ -1,8 +1,8 @@
 <h1>SUMÁRIO:</h1>
-1. Objetivos do projeto
-2. Sobre os dados utilizados
-3. Explicando a ineficácia dos algoritmos
-1. Objetivos do Projeto
+<li>   1. Objetivos do projeto</li>
+<li> 2. Sobre os dados utilizados</li>
+<li>3. Explicando a ineficácia dos algoritmos</li>
+<h2>1. Objetivos do Projeto</h2>
 O projeto Classificador de Arritmias visava obter um algoritmo capaz de analisar dados de
 um eletrocardiograma e prever o diagnóstico de um paciente.
 2. Sobre os dados utilizados
@@ -40,3 +40,5 @@ deles. Regressão Linear, Árvore de Decisão, Random Forest e Redes neurais. Os
 que melhor performaram foram o de Random Forest, que teve em torno de 66.67 % de
 acurácia, Redes neurais com em torno de 65 % de acurácia e SVC com em torno de 60%.
 Para a utilização na área da saúde, algoritmos com esse nível de acurácia são irrelevantes
+</body>
+</html>
