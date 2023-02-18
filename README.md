@@ -3,9 +3,9 @@
 <li> 2. Sobre os dados utilizados</li>
 <li>3. Explicando a ineficácia dos algoritmos</li>
 <h2>1. Objetivos do Projeto</h2>
-O projeto Classificador de Arritmias visava obter um algoritmo capaz de analisar dados de
-um eletrocardiograma e prever o diagnóstico de um paciente.
-2. Sobre os dados utilizados
+<p>O projeto Classificador de Arritmias visava obter um algoritmo capaz de analisar dados de
+um eletrocardiograma e prever o diagnóstico de um paciente.</p>
+## 2. Sobre os dados utilizados
 Os dados utilizados podem ser encontrados em:
 https://www.kaggle.com/datasets/bulentesen/cardiac-arrhythmia-database
 O dataframe em questão contia 279 colunas, porém grande parte delas foi eliminada por não
