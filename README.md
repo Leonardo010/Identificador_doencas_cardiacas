@@ -5,32 +5,32 @@
 <h2>1. Objetivos do Projeto</h2>
 <p>O projeto Classificador de Arritmias visava obter um algoritmo capaz de analisar dados de
 um eletrocardiograma e prever o diagnóstico de um paciente.</p>
-## 2. Sobre os dados utilizados
-Os dados utilizados podem ser encontrados em:
+<h2>2. Sobre os dados utilizados</h2>
+<p>Os dados utilizados podem ser encontrados em:
 https://www.kaggle.com/datasets/bulentesen/cardiac-arrhythmia-database
 O dataframe em questão contia 279 colunas, porém grande parte delas foi eliminada por não
 haver significado explicado pelo autor dos dados. Somente as seguintes características
 foram utilizadas: Idade, Sexo, Altura, Peso, Duração qrs, intervalo PR, intervalo QT, Intervalo
 T, Intervalo Q, qrs, T, P, QRST, frequência cardíaca, onda q, onda r, onda s, onda R’ e Onda
-S’.
-Os diagnósticos foram separados em 16 categorias, indicadas de 1 a 16.
-Dessa forma:
-01 Normal
-02 Ischemic changes (Coronary Artery Disease)
-03 Old Anterior Myocardial Infarction
-04 Old Inferior Myocardial Infarction
-05 Sinus tachycardy
-06 Sinus bradycardy
-07 Ventricular Premature Contraction (PVC)
-08 Supraventricular Premature Contraction
-09 Left bundle branch block
-10 Right bundle branch block
-11 1. degree AtrioVentricular block
-12 2. degree AV block
-13 3. degree AV block
-14 Left ventricule hypertrophy
-15 Atrial Fibrillation or Flutter
-16 Others
+S’.</p>
+<p>Os diagnósticos foram separados em 16 categorias, indicadas de 1 a 16.
+Dessa forma:</p>
+<li>01 Normal</li>
+<li>02 Ischemic changes (Coronary Artery Disease)</li>
+<li>03 Old Anterior Myocardial Infarction</li>
+<li>04 Old Inferior Myocardial Infarction</li>
+<li>05 Sinus tachycardy</li>
+<li>06 Sinus bradycardy</li>
+<li>07 Ventricular Premature Contraction (PVC)</li>
+<li>08 Supraventricular Premature Contraction</li>
+<li>09 Left bundle branch block</li>
+<li>10 Right bundle branch block</li>
+<li>11 1. degree AtrioVentricular block</li>
+<li>12 2. degree AV block</li>
+<li>13 3. degree AV block</li>
+<li>14 Left ventricule hypertrophy</li>
+<li>15 Atrial Fibrillation or Flutter</li>
+<li>16 Others</li>
 O dataset apresentava inicialmente 452 valores porém após o tratamento de dados faltantes
 que foi necessário para não prejudicar a previsão, foi possível utilizar apenas 420 valores.
 3 – Explicando a Ineficácia dos algoritmos
