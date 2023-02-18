@@ -1,6 +1,6 @@
 <h1>SUMÁRIO:</h1>
-<li>   1. Objetivos do projeto</li>
-<li> 2. Sobre os dados utilizados</li>
+<li>1. Objetivos do projeto</li>
+<li>2. Sobre os dados utilizados</li>
 <li>3. Explicando a ineficácia dos algoritmos</li>
 <h2>1. Objetivos do Projeto</h2>
 <p>O projeto Classificador de Arritmias visava obter um algoritmo capaz de analisar dados de
@@ -31,14 +31,12 @@ Dessa forma:</p>
 <li>14 Left ventricule hypertrophy</li>
 <li>15 Atrial Fibrillation or Flutter</li>
 <li>16 Others</li>
-O dataset apresentava inicialmente 452 valores porém após o tratamento de dados faltantes
-que foi necessário para não prejudicar a previsão, foi possível utilizar apenas 420 valores.
-3 – Explicando a Ineficácia dos algoritmos
-O baixo número de dados (420) alinhado ao alto número de características (19)
+<p>O dataset apresentava inicialmente 452 valores porém após o tratamento de dados faltantes
+que foi necessário para não prejudicar a previsão, foi possível utilizar apenas 420 valores.</p>
+<h2>3 – Explicando a Ineficácia dos algoritmos</h2>
+<p>O baixo número de dados (420) alinhado ao alto número de características (19)
 impossibilitou uma boa atuação dos algoritmos de inteligência artifical. Foram testados, 4
 deles. Regressão Linear, Árvore de Decisão, Random Forest e Redes neurais. Os algoritmos
 que melhor performaram foram o de Random Forest, que teve em torno de 66.67 % de
 acurácia, Redes neurais com em torno de 65 % de acurácia e SVC com em torno de 60%.
-Para a utilização na área da saúde, algoritmos com esse nível de acurácia são irrelevantes
-</body>
-</html>
+Para a utilização na área da saúde, algoritmos com esse nível de acurácia são irrelevantes</p>
